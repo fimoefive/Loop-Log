@@ -2,6 +2,7 @@
 Loop through this array of objects and console.log "name's job title is title."
 */
 
+const array =
 [
   {
     name: "Bob",
@@ -23,6 +24,12 @@ Loop through this array of objects and console.log "name's job title is title."
     department: "C-suite",
     title: "CEO"
   }
-]
+];
+
+  for (let i = 0; i < array.length; i++) {
+
+   console.log(`${array[i].name} job title is ${array[i].title}.`)
+ 
+};
 
 
